@@ -46,3 +46,7 @@ To fix a conflict, edit the file to be the way we want, then save and commit
 Undoing things
 To replace a single file with older version, use git checkout <commit> <file>
 To undo an entire commit, git revert <commit>
+
+Reset
+git reset can be used to undo commits: git reset <commit> --<mode>
+In --hard mode, reset rolls back to the commit and DROPS ALL CHANGES since then
