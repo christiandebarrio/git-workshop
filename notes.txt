@@ -11,3 +11,6 @@ git add . track add all files
 Ignoring Things
 .gitignore files tell git what to completely ignore
 
+Commit Logs
+git log shows us all the commits that were made
+git log --oneline shows a summary of all commits
