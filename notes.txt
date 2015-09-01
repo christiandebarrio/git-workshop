@@ -7,12 +7,14 @@ git status tell us the state of our working directory
 Add
 git add tells git to track specific files or folders
 git add . track add all files
+To stage certain changes with Patch Mode, we use git add -p
 
 Ignoring Things
 .gitignore files tell git what to completely ignore
 
 Commit
 git commit is use to create a commit
+git commit -a tell git to add and commit
 
 Commit Logs
 git log shows us all the commits that were made
