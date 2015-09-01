@@ -14,7 +14,8 @@ Ignoring Things
 
 Commit
 git commit is use to create a commit
-git commit -a tell git to add and commit
+git commit -a tell git to add and commit (git add . + git commit)
+got commit -a -m tell git to add, commit with a message in one time
 
 Commit Logs
 git log shows us all the commits that were made
